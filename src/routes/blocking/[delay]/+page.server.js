@@ -1,3 +1,4 @@
+// src/blocking/[delay]/+page.server.js
 import { setTimeout } from 'node:timers/promises';
 
 export async function load({ params: { delay } }) {

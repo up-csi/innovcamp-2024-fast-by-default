@@ -1,3 +1,4 @@
+// src/streaming/[delay]/+page.svelte
 import { setTimeout } from 'node:timers/promises';
 
 export function load({ params: { delay } }) {
