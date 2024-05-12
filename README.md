@@ -1,6 +1,6 @@
 # Making Fast the Default
 
-This is the repository for the example code from the InnovCamp 2024 workshop by @BastiDood titled _"Making Fast the Default with Svelte"_.
+This is the repository for the example code from the InnovCamp 2024 workshop by [Basti Ortiz](https://github.com/BastiDood) titled _"Making Fast the Default with Svelte"_.
 
 ## Development
 
