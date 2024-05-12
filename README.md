@@ -1,10 +1,10 @@
-# Checklist
+# Making Fast the Default
 
--   [ ] Update the project `name` in the [`package.json`](./package.json).
+This is the repository for the example code from the InnovCamp 2024 workshop by @BastiDood titled _"Making Fast the Default with Svelte"_.
 
-# Development
+## Development
 
-## Running the Web Server
+### Running the Web Server
 
 ```bash
 # Install the dependencies.
@@ -23,7 +23,7 @@ pnpm build
 pnpm preview
 ```
 
-## Linting the Codebase
+### Linting the Codebase
 
 ```bash
 # Check Formatting
