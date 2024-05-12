@@ -3,4 +3,5 @@
     <li><a href="/streaming/4000">Streaming Example</a></li>
     <li><a href="/multi-request/child/nested">Parallel Load Functions</a></li>
     <li><a href="/cache-layout">Cached Layout Data</a></li>
+    <li><a href="/enhanced-img">Enhanced Images</a></li>
 </ol>
