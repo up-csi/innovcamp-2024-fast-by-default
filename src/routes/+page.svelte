@@ -2,4 +2,5 @@
     <li><a href="/blocking/2000">Blocking Example</a></li>
     <li><a href="/streaming/4000">Streaming Example</a></li>
     <li><a href="/multi-request/child/nested">Parallel Load Functions</a></li>
+    <li><a href="/cache-layout">Cached Layout Data</a></li>
 </ol>
