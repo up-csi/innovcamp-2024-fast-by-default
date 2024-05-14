@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import LoopWorker from './LoopWorker?worker';
     import { loop } from './Loop';
     import { onMount } from 'svelte';
@@ -10,11 +10,7 @@
         return () => clearInterval(id);
     });
 
-    /**
-     * @param {HTMLButtonElement} butt
-     * @param {number} n
-     */
-    function spawnWorker(butt, n) {
+    function spawnWorker(butt: HTMLButtonElement, n: number) {
         butt.disabled = true;
         const worker = new LoopWorker({ name: n.toString() });
         worker.addEventListener('message', () => (butt.disabled = false), { once: true });
