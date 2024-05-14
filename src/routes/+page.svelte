@@ -6,4 +6,5 @@
     <li><a href="/enhanced-img">Enhanced Images</a></li>
     <li><a href="/ssr">Server-Side Rendering</a></li>
     <li><a href="/prerender">Pre-rendering</a></li>
+    <li><a href="/worker">Web Workers</a></li>
 </ol>
