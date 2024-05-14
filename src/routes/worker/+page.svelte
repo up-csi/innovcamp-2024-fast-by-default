@@ -1,5 +1,5 @@
 <script>
-    import AlertWorker from './AlertWorker?worker';
+    import LoopWorker from './LoopWorker?worker';
     import { loop } from './Loop';
     import { onMount } from 'svelte';
 
@@ -16,7 +16,7 @@
      */
     function spawnWorker(butt, n) {
         butt.disabled = true;
-        const worker = new AlertWorker({ name: n.toString() });
+        const worker = new LoopWorker({ name: n.toString() });
         worker.addEventListener('message', () => (butt.disabled = false), { once: true });
     }
 </script>
